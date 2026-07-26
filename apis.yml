@@ -1,22 +1,70 @@
 aid: dna-games
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dna-games.png
 name: DNA Games
-description: DNA Games is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'DNA Games was a social game studio founded in 2009 by Jon Lee and Shaun
+  Haase in the San Francisco Bay Area, building technology for real-time social game
+  optimization on the Facebook platform. The studio shipped Casino City, Bar World,
+  and Slot City, casino and lifestyle simulation titles that together reached more
+  than 20 million players, with Casino City becoming a leading casino simulation game
+  on Facebook. The company raised roughly $2 million in venture funding from Battery
+  Ventures and Bain Capital Ventures before being acquired by Zynga in May 2011, one
+  of a rapid series of Zynga studio acquisitions during that period. Post-acquisition
+  the founders and core team were absorbed into Zynga to seed a new internal game
+  studio, and DNA Games ceased to operate as an independent company. As of the July
+  2026 enrichment pass the company publishes no website, developer portal, documentation,
+  or public API surface; the dnagames.com, dna.games, and dnagames.io domains are
+  all parked or listed for sale by third parties and are not operated by the company.'
 url: https://raw.githubusercontent.com/api-evangelist/dna-games/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
+- bain-capital-ventures
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-acquired
+x-status: acquired
+x-acquired-by: zynga
+x-acquired-date: '2011-05'
+x-founded: '2009'
+x-api-surface: none
+x-api-surface-reason: Company was acquired by Zynga in May 2011 and no longer operates
+  independently. No live company domain, developer portal, documentation, or API was
+  found during the enrichment pass. All candidate domains (dnagames.com HTTP 200 ->
+  afternic.com for-sale parking, dna.games HTTP 200 -> Spaceship.com domain marketplace
+  listing, dnagames.io HTTP 200 -> parked lander, dnagames.co HTTP 525) are parked
+  or for sale and are not operated by the company.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Gaming
+- Social Games
+- Game Development
+- Casino Games
+- Facebook Platform
+- Acquired
+- Defunct
 apis: []
+common: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
