@@ -44,7 +44,7 @@ x-api-surface-reason: Company was acquired by Zynga in May 2011 and no longer op
   afternic.com for-sale parking, dna.games HTTP 200 -> Spaceship.com domain marketplace
   listing, dnagames.io HTTP 200 -> parked lander, dnagames.co HTTP 525) are parked
   or for sale and are not operated by the company.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
